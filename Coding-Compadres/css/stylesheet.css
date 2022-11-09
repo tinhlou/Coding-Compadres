@@ -1,0 +1,30 @@
+#head{
+    font-size: 300%;
+    text-align: center;
+}
+body{
+    background-color: #303030;
+}
+
+
+h1{
+    color:rgb(224, 224, 224);
+}
+
+h2{
+    color: rgb(177, 70, 70);
+}
+
+h3{
+    color:rgb(0, 0, 0);
+}
+
+p{
+    color: aliceblue;
+}
+li{
+    color: aliceblue;
+}
+.skin{
+    height: 40%;
+}

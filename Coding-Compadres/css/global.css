@@ -33,3 +33,12 @@ body{
     background-color: rgb(170, 58, 82);
     color:rgb(235, 175, 193);
 }
+
+main{
+    width: 100%;
+    max-width: 900%;
+    background-color: rgb(70, 17, 24);
+    margin:  0 auto;
+
+
+}

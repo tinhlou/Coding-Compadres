@@ -34,6 +34,12 @@ body{
     color:rgb(235, 175, 193);
 }
 
+.footer ul{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+
+
 main{
     width: 100%;
     max-width: 900%;

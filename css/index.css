@@ -1,0 +1,46 @@
+main{
+    width: 100%;
+    max-width: 1080px;
+    background-color: rgb(255, 255, 255);
+    margin:  0 auto;
+    text-align: left;
+}
+
+#main_section{
+    display: flex;
+}
+
+#div_1{
+    margin: 20px;
+}
+
+#div_2{
+    margin: 20px;
+}
+
+#div_3{
+    margin: 20px;
+}
+
+#caption_1{
+    font-size: smaller;
+    color:rgb(87, 89, 92);
+    padding: 0px 0px 10px 0px;
+}
+
+#caption_2{
+    font-size: smaller;
+    color:rgb(87, 89, 92);
+    padding: 0px 0px 10px 0px;
+}
+
+#caption_3{
+    font-size: smaller;
+    color:rgb(87, 89, 92);
+    padding: 0px 0px 10px 0px;
+}
+
+#hero{
+    object-fit: cover;
+    height: 400px;
+}

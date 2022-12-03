@@ -1,22 +1,22 @@
-#head{
+/* #head{
     font-size: 300%;
     text-align: center;
 }
 body{
-    background-color: #303030;
+    background-color: #ffffff;
 }
 
 
 h1{
-    color:rgb(224, 224, 224);
+    color:rgb(255, 255, 255);
 }
 
 h2{
-    color: rgb(177, 70, 70);
+    color: rgb(255, 255, 255);
 }
 
 h3{
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
 }
 
 p{
@@ -27,4 +27,4 @@ li{
 }
 .skin{
     height: 40%;
-}
+} */

@@ -3,13 +3,12 @@
 *{
     margin: 0;
     padding: 0;
-    border-style: solid;
+    /* border-style: solid; */
 }
 
 body{
     font-family: 'Barlow', sans-serif;
     font-size: 16px;
-    height: 100%;
     width: 100%;
     text-align: center;
 }
@@ -46,23 +45,23 @@ img{
 }
 /*footer*/
 
-.footer{
+footer{
     display: grid;
     place-items: center;
     grid-template-columns: auto 1fr auto;
-}
-
-footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     background-color: rgb(255, 194, 209);
 }
 
-footer ul li {  
+footer ul li{  
     list-style: none;
 }
 
 footer ul li a{
     display: block;
-    padding: 20;
+    padding: 6;
     font-size: 20;
     color: rgb(216, 132, 155);
     transition: 0.25s;
@@ -78,7 +77,6 @@ footer #social ul{
 }   
 
 footer #social ul li a{
-    display:flex;
     justify-content: center;
     align-items: center;
     width:30px;
@@ -105,19 +103,4 @@ footer #social ul li a{
 .fa-poop{
     color:rgb(53, 40, 29);
     font-size: 30px;
-}
-main{
-    width: 100%;
-    max-width: 100%;
-    background-color: rgb(70, 17, 24);
-    margin:  0 auto;
-}
-
-p{
-    font-size: 20px;
-}
-
-#hero{
-    object-fit: cover;
-    height: 400px;
 }

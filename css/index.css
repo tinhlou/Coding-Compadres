@@ -5,10 +5,12 @@ main{
     margin:  0 auto;
     text-align: left;
 }
-h1{
+
+#title{
     margin: 10px;
     font-size: xx-large;
 }
+
 #main_section{
     display: flex;
 }

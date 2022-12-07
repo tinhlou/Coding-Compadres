@@ -4,16 +4,19 @@ main{
     background-color: rgb(255, 255, 255);
     margin:  0 auto;
     text-align: left;
+    padding: 0px 0px 312px 0px;
 }
 
 #main_section{
     display: flex;
 }
-h1{
+
+#title{
     text-align: left;
     margin: 0px 20px;
     font-size: xx-large;
-}
+} 
+
 #second_section{
     box-shadow: 10px 10px 5px 9px rgb(137, 168, 204);
     margin: 0px 40px 30px;
@@ -27,14 +30,9 @@ h4{
 #action_1{
     padding: 40px;
 }
+
 #action_2{
     padding: 40px;
-}
-
-
-#hero{
-    object-fit: cover;
-    height: 400px;
 }
 
 #caption_1{

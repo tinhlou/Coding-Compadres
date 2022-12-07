@@ -5,21 +5,28 @@ main{
     margin:  0 auto;
     text-align: left;
 }
-
+h1{
+    margin: 10px;
+    font-size: xx-large;
+}
 #main_section{
     display: flex;
 }
 
 #div_1{
-    margin: 20px;
+    margin: 40px 50px 0px 0px;
 }
 
 #div_2{
-    margin: 20px;
+    margin: 40px;
+    padding: 20px;
+    box-shadow:10px 10px 5px 7px rgba(12, 36, 63, 0.432);
+    background-color: rgb(95, 138, 216);
+    color:rgb(219, 225, 231);
 }
 
 #div_3{
-    margin: 20px;
+    margin: 40px 0px 0px 70px;
 }
 
 #caption_1{

@@ -9,9 +9,15 @@ main{
 #main_section{
     display: flex;
 }
-
+h1{
+    text-align: left;
+    margin: 0px 20px;
+    font-size: xx-large;
+}
 #second_section{
-    box-shadow: 10px 10px 5px 9px rgb(94, 123, 133);
+    box-shadow: 10px 10px 5px 9px rgb(137, 168, 204);
+    margin: 0px 40px 30px;
+    padding: 20px 10px 40px 10px;
 }
 
 h4{
@@ -25,13 +31,10 @@ h4{
     padding: 40px;
 }
 
-p{
-    font-size: 20px;
-}
 
 #hero{
     object-fit: cover;
-    height: 150px;
+    height: 400px;
 }
 
 #caption_1{
@@ -39,6 +42,7 @@ p{
     color:rgb(87, 89, 92);
     padding: 0px 0px 10px 0px;
 }
+
 #caption_2{
     font-size: smaller;
     color:rgb(87, 89, 92);

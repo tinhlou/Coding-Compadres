@@ -5,7 +5,10 @@ main{
     margin:  0 auto;
     text-align: left;
 }
-
+h1{
+    text-align: left;
+    margin:0px 0px 0px 20px;
+}
 #main_section{
     display: flex;
 }

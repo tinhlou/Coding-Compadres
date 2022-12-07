@@ -6,6 +6,14 @@
     /* border-style: solid; */
 }
 
+/* main{
+    width: 100%;
+    max-width: 1080px;
+    background-color: rgb(255, 255, 255);
+    margin:  0 auto;
+    text-align: left;
+} */
+
 body{
     font-family: 'Barlow', sans-serif;
     font-size: 16px;
@@ -18,7 +26,7 @@ img{
 }
 /*topbar*/
 .top-bar{
-    background-color: rgb(166, 33, 62);
+    background-color: rgb(33, 86, 166);
 }
 
 .top-bar ul{
@@ -35,13 +43,13 @@ img{
     display: block;
     padding: 20;
     font-size: 20;
-    color: rgb(66, 4, 23);
+    color: rgb(79, 142, 252);
     transition: 0.25s;
 }
 
 .top-bar ul li a:hover{
-    background-color: rgb(170, 58, 82);
-    color:rgb(235, 175, 193);
+    background-color: rgb(44, 113, 216);
+    color:rgb(255, 255, 255);
 }
 /*footer*/
 
@@ -49,10 +57,16 @@ footer{
     display: grid;
     place-items: center;
     grid-template-columns: auto 1fr auto;
-    position: fixed;
+    position: absolute;
     width: 100%;
     bottom: 0;
-    background-color: rgb(255, 194, 209);
+    background-color: rgb(33, 86, 166);
+}
+
+footer ul{
+    display:flex;
+    justify-content: space-around;
+    margin:0px 30px;
 }
 
 footer ul li{  
@@ -61,46 +75,39 @@ footer ul li{
 
 footer ul li a{
     display: block;
-    padding: 6;
+    padding: 20px;
     font-size: 20;
-    color: rgb(216, 132, 155);
+    color: rgb(79, 142, 252);
     transition: 0.25s;
 }
 
 footer ul li a:hover{
-    background-color: rgb(202, 154, 166);
-    color:rgb(199, 118, 138);
+    background-color: rgb(44, 113, 216);
+    color:rgb(255, 255, 255);
 }
 
-footer #social ul{
+
+#social{
     display: flex;
+    justify-content: space-around;
 }   
 
-footer #social ul li a{
-    justify-content: center;
-    align-items: center;
+#social ul li a{
     width:30px;
     height:30px;
     border-radius: 40px;
 }
 /*icons*/
-.fa-hippo{
-    color: rgb(41, 31, 35);
-    font-size: 30px;
-}
+
 .fa-instagram{
-    color:rgb(228, 163, 188);
+    color:rgb(255, 255, 255);
     font-size: 30px;
 }
 .fa-discord{
-    color:rgb(81, 66, 133);
+    color:rgb(255, 255, 255);
     font-size: 30px;
 }
 .fa-facebook{
-    color: rgb(26, 109, 182);
-    font-size: 30px;
-}
-.fa-poop{
-    color:rgb(53, 40, 29);
+    color: rgb(255, 255, 255);
     font-size: 30px;
 }

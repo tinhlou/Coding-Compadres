@@ -7,6 +7,16 @@ main{
     padding: 0px 0px 312px 0px;
 }
 
+/* .top-bar ul li a{
+    padding: 20px 20px 20px 20px;
+    margin: 0px 0px 40px 0px;
+}
+
+.top-bar ul li a:hover{
+    background-color: rgb(44, 113, 216);
+    color:rgb(255, 255, 255);
+} */
+
 #main_section{
     display: flex;
 }
@@ -19,7 +29,7 @@ main{
 
 #second_section{
     box-shadow: 10px 10px 5px 9px rgb(137, 168, 204);
-    margin: 0px 40px 30px;
+    margin: 30px 40px 30px;
     padding: 20px 10px 40px 10px;
 }
 

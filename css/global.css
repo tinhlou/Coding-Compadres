@@ -24,12 +24,15 @@ body{
 img{
     width: 100%;
 }
+
 /*topbar*/
 .top-bar{
     background-color: rgb(33, 86, 166);
-    /* position: absolute;
     width: 100%;
-    height: 5%; */
+    position: absolute;
+    overflow: hidden;
+    font: 3.5vh;
+
 }
 
 .top-bar ul{
@@ -39,14 +42,20 @@ img{
 
 .top-bar ul li{
     list-style: none;
+    margin-top: 1%;
+    margin-bottom: 1.2%;
+    text-decoration: none;
+    border:0;
+    position: relative;
 }
 
 .top-bar ul li a{
-    display: block;
-    padding: 20;
-    font-size: 20;
+    /* display: block; */
+    padding: 1vh;
+    font-size: 1.5vh;
     color: rgb(79, 142, 252);
     transition: 0.25s;
+ 
 }
 
 .top-bar ul li a:hover{
@@ -103,13 +112,13 @@ footer ul li a:hover{
 
 .fa-instagram{
     color:rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 3vh;
 }
 .fa-discord{
     color:rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 3vh;
 }
 .fa-facebook{
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 3vh;
 }

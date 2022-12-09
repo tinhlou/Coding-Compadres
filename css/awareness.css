@@ -7,6 +7,11 @@ main{
     padding: 0px 0px 412px 0px;
 }
 
+/* .top-bar ul li a{
+    padding: 20px 20px 20px 20px;
+    margin: 0px 0px 40px 0px;
+} */
+
 #main_section{
     display: flex;
 }

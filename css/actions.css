@@ -16,7 +16,6 @@ main{
     background-color: rgb(44, 113, 216);
     color:rgb(255, 255, 255);
 } */
-
 #main_section{
     display: flex;
 }
@@ -24,7 +23,8 @@ main{
 #title{
     text-align: left;
     margin: 0px 20px;
-    font-size: xx-large;
+    padding: 40px;
+    font-size: x-large;
 } 
 
 #second_section{

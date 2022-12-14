@@ -19,7 +19,8 @@ main{
 #title{
     text-align: left;
     margin:0px 0px 0px 20px;
-    font-size: xx-large;
+    padding: 40px;
+    font-size: x-large;
 }
 
 #description{
